@@ -47,23 +47,4 @@ pytest
 
 - Adapt system prompt or context as needed.
 
-## Publishing to GitHub
 
-This project can be pushed to a public or private repository. A simple example:
-
-```bash
-cd "c:\Users\Georgyyyy\Documents\backend for bot"
-git init
-git add .
-git commit -m "Initial bot backend"
-# optionally add remote
-# git remote add origin https://github.com/<username>/<repo>.git
-# git push -u origin main
-```
-
-Include the `assistant_bot.html` file in the same repo or a separate `frontend` directory. GitHub Pages or any static host can serve the HTML, while the Flask app runs on a server (Heroku, VPS, etc.).
-
-You may also want to update `.gitignore` to exclude `.env` and virtual environments (already handled).
-
-d.
-- This is intended as a minimal starting point.
